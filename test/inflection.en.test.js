@@ -71,6 +71,10 @@ module.exports = {
     assert.equal('indices', en.pluralize('index'));
     assert.equal('indices', en.pluralize('indice'));
     assert.equal('categories', en.pluralize('category'));
+
+    assert.equal('infos', en.pluralize('info'));
+    assert.equal('photos', en.pluralize('photo'));
+
   },
   
   'test .singularize()': function(assert){

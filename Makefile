@@ -1,6 +1,6 @@
 
 test:
-	@./support/expresso/bin/expresso \
+	@./node_modules/expresso/bin/expresso \
 		$(TEST_FLAGS) \
 		-I lib
 
